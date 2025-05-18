@@ -117,8 +117,50 @@ footer{
         width: 500px;
     }
 
+    section h1{
+    font-size: small;
+}
+
+section h2{
+   padding: 0.5rem 0 0.2rem 0;
+}
+
+section h2 span{
+    font-size: small;
+    opacity: .6;
+    vertical-align: 5px;
+}
+
+section p{
+    font-size: smaller;
+    color: hsl(206, 30%, 86%);
+    padding-bottom: 1rem;
+}
+
+section a{
+    background-color: hsl(71, 73%, 54%);
+    display: block;
+    border: 1px solid transparent;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: .3rem 0;
+    border-radius: 5px;
+    color: white;
+}
+
 
     footer .foot{
         width: 60%;
+        vertical-align: middle;
     }
+
+    .foot h1{
+    font-size: medium;
+}
+
+.foot p{
+    padding-top: 0.7rem;
+    font-size: small;
+}
 }
