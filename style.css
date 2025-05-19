@@ -118,11 +118,11 @@ footer{
 
 
     section{
-        font-size: small;
+        font-size: 0.7rem;
     }
 
     section h1{
-    font-size: small;
+    font-size: 0.9rem;
     display: flex;
     align-items: center;
 }
@@ -138,7 +138,7 @@ section h2 span{
 }
 
 section p{
-    font-size: small;
+    font-size: clamp(1rem, 2vw + 1rem, 1rem);
     color: hsl(206, 30%, 86%);
     padding-bottom: 1rem;
 }
