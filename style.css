@@ -61,7 +61,7 @@ section h2 span{
 }
 
 section p{
-    font-size: smaller;
+    font-size: clamp (2rem, 2vw + 1rem, 2rem);
     color: hsl(206, 30%, 86%);
     padding-bottom: 1rem;
 }
@@ -118,7 +118,7 @@ footer{
 
 
     section{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     section h1{
@@ -138,7 +138,7 @@ section h2 span{
 }
 
 section p{
-    font-size: clamp(1rem, 2vw + 1rem, 1rem);
+    
     color: hsl(206, 30%, 86%);
     padding-bottom: 1rem;
 }
