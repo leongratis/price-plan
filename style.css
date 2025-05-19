@@ -99,7 +99,7 @@ footer{
     font-size: small;
 }
 
-@media screen and (min-width: 750px){
+@media screen and (min-width:750px){
 
     body{
         background-color: hsl(205, 23%, 78%);
@@ -132,7 +132,7 @@ section h2 span{
 }
 
 section p{
-    font-size: smaller;
+    font-size: small;
     color: hsl(206, 30%, 86%);
     padding-bottom: 1rem;
 }
@@ -149,10 +149,14 @@ section a{
     color: white;
 }
 
+footer{
+    display: flex;
+    align-items: center;
+}
 
     footer .foot{
-        width: 60%;
-        vertical-align: middle;
+        width: 65%;
+        
     }
 
     .foot h1{
