@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: hsl(218, 22%, 67%);
+    background-color: hsl(217, 17%, 53%);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -46,18 +46,19 @@ section{
     padding-block: 1.3rem;
 }
 
-section h1{
-    font-size: small;
-}
-
 section h2{
-   padding: 0.5rem 0 0.2rem 0;
+    font-size: large;
 }
 
-section h2 span{
+section h3{
+   padding: 0.5rem 0 0.2rem 0;
+   font-size: 1.4rem;
+}
+
+section h3 span{
     font-size: small;
     opacity: .6;
-    vertical-align: 5px;
+    vertical-align: 4px;
 }
 
 section p{
@@ -81,7 +82,7 @@ section a{
 /* bottom */
 footer{
     background-color: hsl(179, 60%, 60%);
-    color: white;
+    color: rgba(253, 252, 252, 0.986);
     padding-left: 1.4rem;
     padding-right: 1.4rem;
     padding-block: 1rem;
@@ -90,8 +91,8 @@ footer{
     width: 80%;
 }
 
-.foot h1{
-    font-size: medium;
+.foot h2{
+    font-size: large;
 }
 
 .foot p{
@@ -102,7 +103,7 @@ footer{
 @media screen and (min-width:750px){
 
     body{
-        background-color: hsl(205, 23%, 78%);
+        background-color: hsl(200, 6%, 79%);
     }
     main{
         display: grid;
@@ -122,24 +123,24 @@ footer{
         justify-content: center;
     }
 
-    section h1{
-    font-size: 0.9rem;
+    section h2{
+    font-size: large;
 }
 
-section h2{
-   padding: 0.5rem 0 0.2rem 0;
+section h3{
+   padding: 0.7rem 0 0.2rem 0;
 }
 
-section h2 span{
+section h3 span{
     font-size: small;
     opacity: .7;
     vertical-align: 3px;
 }
 
 section p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: hsl(206, 30%, 86%);
-    padding-bottom: 1rem;
+    padding-bottom: 1.3rem;
 }
 
 section a{
@@ -149,7 +150,7 @@ section a{
     width: 100%;
     text-align: center;
     text-decoration: none;
-    padding: .2rem 0;
+    padding: 0.5rem 0;
     border-radius: 5px;
     color: white;
 }
@@ -160,12 +161,12 @@ footer{
 }
 
     footer .foot{
-        width: 65%;
+        width: 70%;
         padding-block: 0.5rem;
     }
 
-    .foot h1{
-    font-size: medium;
+    .foot h2{
+    font-size: large;
 }
 
 .foot p{
